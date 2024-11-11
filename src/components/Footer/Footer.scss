@@ -1,0 +1,45 @@
+.footer {
+    background: hsl(var(--primary));
+    padding-top: 50px;
+
+
+    &__content {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__logo {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 72%;
+        text-transform: uppercase;
+        color: hsl(var(--secondary));
+        display: block;
+        width: max-content;
+        margin-bottom: 40px;
+
+    }
+
+    &__title {
+        color: hsl(var(--secondary));
+        margin-bottom: 50px;
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 60px;
+
+        &-link {
+
+            font-weight: 400;
+            font-size: 18px;
+            text-transform: capitalize;
+            color: hsl(var(--secondary));
+        }
+    }
+}
+.socials{
+    flex-direction: row;
+}

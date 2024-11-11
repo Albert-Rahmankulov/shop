@@ -1,0 +1,38 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+    margin-bottom: 20px;
+
+    &__logo {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 72%;
+        text-transform: uppercase;
+    }
+
+    &__routes {
+
+        display: flex;
+        gap: 50px;
+
+
+        &-link {
+            font-weight: 400;
+            font-size: 18px;
+            text-transform: capitalize;
+        }
+    }
+
+    &__buttons {
+
+        display: flex;
+        gap: 30px;
+
+        &-button {
+            font-weight: 400;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+    }
+}
